@@ -16,7 +16,7 @@ import { PROFILE } from '../data/portfolio.data';
         </div>
 
         <ul class="infos">
-          <li><span class="accent">✉</span> {{ p.email }}</li>
+          <li h><span class="accent">✉</span> {{ p.email }}</li>
           <li><span class="accent">⌖</span> {{ p.location }}</li>
           <li><span class="accent">●</span> Disponible en freelance &amp; CDI</li>
         </ul>
@@ -35,7 +35,7 @@ import { PROFILE } from '../data/portfolio.data';
           <textarea formControlName="message" rows="4" placeholder="Parlez-moi de votre projet..." aria-label="Message"></textarea>
 
           @if (sent()) {
-            <p class="ok mono">Message envoyé, merci !</p>
+            <p class="ok mono">Votre message est prêt à être envoyé.</p>
           } @else if (form.invalid && form.touched) {
             <p class="err mono">Remplis ton nom, un email valide et un message.</p>
           }
@@ -73,9 +73,15 @@ export class ContactComponent {
   submit() {
     this.form.markAllAsTouched();
     if (this.form.invalid) return;
-    // TODO: brancher ici ton vrai backend (HttpClient)
-    console.log(this.form.getRawValue());
+
+    const { name, email, type, message } = this.form.getRawValue();
+    const subject = `Message de contact — ${name}`;
+    const body = `Nom : ${name}\nEmail : ${email}\nType de projet : ${type || 'Non précisé'}\n\n${message}`;
+    const whatsappUrl = `https://wa.me/237674508339?text=${encodeURIComponent(body)}`;
+    const emailUrl = `mailto:${this.p.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    window.location.href = emailUrl;
     this.sent.set(true);
-    this.form.reset();
   }
 }
