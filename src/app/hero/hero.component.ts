@@ -20,15 +20,15 @@ import { PROFILE } from '../data/portfolio.data';
 
       <div class="code card" aria-hidden="true">
         <div class="dots"><i></i><i></i><i></i></div>
-<pre class="mono"><span class="muted">01</span> const <span class="accent">AdrianCole</span> = &#123;
+<pre class="mono"><span class="muted">01</span> const <span class="accent">JerryFloyd</span> = &#123;
 <span class="muted">02</span>   role: <span class="accent">'Software Engineer'</span>,
 <span class="muted">03</span>   focus: [<span class="accent">'Frontend'</span>, <span class="accent">'Backend'</span>, <span class="accent">'UX'</span>],
 <span class="muted">04</span>   code: <span class="accent">'Clean'</span>,
 <span class="muted">05</span>   design: <span class="accent">'Intentional'</span>,
 <span class="muted">06</span>   mission: <span class="accent">'Build fast, accessible
 <span class="muted">07</span>     and delightful products.'</span>,
-<span class="muted">08</span>   tech: [<span class="accent">'TypeScript'</span>, <span class="accent">'React'</span>,
-<span class="muted">09</span>     <span class="accent">'Node.js'</span>, <span class="accent">'PostgreSQL'</span>]
+<span class="muted">08</span>   tech: [<span class="accent">'TypeScript'</span>, <span class="accent">'Angular'</span>,
+<span class="muted">09</span>     <span class="accent">'Spring boot'</span>, <span class="accent">'PostgreSQL'</span>]
 <span class="muted">10</span> &#125;;
 <span class="muted">11</span>
 <span class="muted">12</span> <span class="muted">// Building the future, one commit at a time.</span></pre>

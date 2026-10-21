@@ -21,6 +21,11 @@
             "assets": [
               {
                 "glob": "**/*",
+                "input": "src/app/about/assests",
+                "output": "assests"
+              },
+              {
+                "glob": "**/*",
                 "input": "public"
               }
             ],
