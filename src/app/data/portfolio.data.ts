@@ -47,7 +47,7 @@ export const EXPERIENCES = [
 ];
 
 export const TESTIMONIALS = [
-  { text: 'Jerry est un mélange rare de développeur talentueux et de designer attentif. Le produit livré est magnifique et très performant.', name: 'Sarah Johnson', role: 'Product Manager, Trackify' },
-  { text: 'Travailler avec Jerry a tout changé. Il a compris nos besoins, communiqué clairement et dépassé nos attentes.', name: 'Michael Chen', role: 'CEO, BookNest' },
-  { text: 'Son sens du détail et sa façon de résoudre les problèmes sont excellents. Je le recommande pour n’importe quel projet.', name: 'Jessica Lee', role: 'CTO, FlowTask' },
+  { text: 'Jerry est un mélange rare de développeur talentueux et de designer attentif. Le produit livré est magnifique et très performant.', name: 'Irene', role: 'Cliente d´un site d´invitation a son anniversaire' },
+  //{ text: 'Travailler avec Jerry a tout changé. Il a compris nos besoins, communiqué clairement et dépassé nos attentes.', name: 'Michael Chen', role: 'CEO, BookNest' },
+  //{ text: 'Son sens du détail et sa façon de résoudre les problèmes sont excellents. Je le recommande pour n’importe quel projet.', name: 'Jessica Lee', role: 'CTO, FlowTask' },
 ];
