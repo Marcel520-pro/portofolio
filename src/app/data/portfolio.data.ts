@@ -1,12 +1,12 @@
 export const PROFILE = {
-  name: 'Adrian',
-  lastName: 'Cole',
-  initials: 'AC',
+  name: 'Jerry Floyd Marcel',
+  lastName: 'De Feudjio',
+  initials: 'JFMF',
   role: 'Software Engineer & UX Developer',
   intro:
     'Je crée des expériences web performantes, avec un code propre et un design intuitif. Je transforme les idées en solutions numériques solides et centrées sur l’utilisateur.',
-  email: 'adrian.cole@dev',
-  location: 'San Francisco, CA',
+  email: 'jerryfeudjio@gmail.com',
+  location: 'Yaounde, Obobogo, Cameroun',
 };
 
 export const NAV_LINKS = [
@@ -20,9 +20,9 @@ export const NAV_LINKS = [
 ];
 
 export const STATS = [
-  { value: '7+', label: 'Années d’expérience', icon: '>_' },
-  { value: '50+', label: 'Projets livrés', icon: '</>' },
-  { value: '30+', label: 'Clients satisfaits', icon: '☺' },
+  { value: '-3', label: 'Années d’expérience', icon: '>_' },
+  { value: '-5', label: 'Projets livrés', icon: '</>' },
+  { value: '3+', label: 'Clients satisfaits', icon: '☺' },
 ];
 
 export const SKILLS = [
@@ -47,7 +47,7 @@ export const EXPERIENCES = [
 ];
 
 export const TESTIMONIALS = [
-  { text: 'Adrian est un mélange rare de développeur talentueux et de designer attentif. Le produit livré est magnifique et très performant.', name: 'Sarah Johnson', role: 'Product Manager, Trackify' },
-  { text: 'Travailler avec Adrian a tout changé. Il a compris nos besoins, communiqué clairement et dépassé nos attentes.', name: 'Michael Chen', role: 'CEO, BookNest' },
+  { text: 'Jerry est un mélange rare de développeur talentueux et de designer attentif. Le produit livré est magnifique et très performant.', name: 'Sarah Johnson', role: 'Product Manager, Trackify' },
+  { text: 'Travailler avec Jerry a tout changé. Il a compris nos besoins, communiqué clairement et dépassé nos attentes.', name: 'Michael Chen', role: 'CEO, BookNest' },
   { text: 'Son sens du détail et sa façon de résoudre les problèmes sont excellents. Je le recommande pour n’importe quel projet.', name: 'Jessica Lee', role: 'CTO, FlowTask' },
 ];
