@@ -9,7 +9,7 @@ import { PROJECTS } from '../data/portfolio.data';
       <div class="container">
         <div class="head">
           <p class="label">PROJETS EN VEDETTE</p>
-          <a href="#" class="mono accent all">Voir tout →</a>
+          <a href="https://github.com/Marcel520-pro" class="mono accent all">Voir tout →</a>
         </div>
         <div class="grid">
           @for (p of projects; track p.name) {
@@ -20,6 +20,7 @@ import { PROJECTS } from '../data/portfolio.data';
               <div class="tags">
                 @for (t of p.tags; track t) { <span class="tag">{{ t }}</span> }
               </div>
+              <a class="repo-link" [href]="$any(p).githubUrl || $any(p).github || ('https://github.com/Marcel520-pro/' + p.name.toLowerCase().replaceAll(' ', '-'))" target="_blank" rel="noopener noreferrer">Voir le dépôt GitHub →</a>
             </article>
           }
         </div>
@@ -37,6 +38,8 @@ import { PROJECTS } from '../data/portfolio.data';
     h3 { padding: 0 16px; font-size: 15px; }
     p { padding: 4px 16px 12px; font-size: 12px; }
     .tags { display: flex; gap: 6px; flex-wrap: wrap; padding: 0 16px; }
+    .repo-link { display: inline-block; margin: 16px 16px 0; padding: 8px 12px; border: 1px solid var(--accent); color: var(--accent); font-size: 11px; text-decoration: none; }
+    .repo-link:hover { background: rgba(182,255,26,.1); }
   `,
 })
 export class ProjectsComponent {

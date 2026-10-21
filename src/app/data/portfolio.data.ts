@@ -27,17 +27,17 @@ export const STATS = [
 
 export const SKILLS = [
   { icon: '</>', title: 'Web Development', text: 'Sites responsives, rapides et évolutifs.' },
-  { icon: '▭', title: 'Frontend Engineering', text: 'Interfaces modernes avec React, Next.js et Tailwind CSS.' },
-  { icon: '☰', title: 'Backend Development', text: 'APIs robustes et applications serveur avec Node.js.' },
+  { icon: '▭', title: 'Frontend Engineering', text: 'Interfaces modernes avec Angular, Next.js et Tailwind CSS.' },
+  { icon: '☰', title: 'Backend Development', text: 'APIs robustes et applications serveur avec Spring Boot.' },
   { icon: '◍', title: 'Database Design', text: 'Bases de données efficaces et sécurisées.' },
   { icon: '✎', title: 'UX/UI Design', text: 'Interfaces intuitives, accessibles et centrées utilisateur.' },
   { icon: '➶', title: 'Performance & SEO', text: 'Optimisation de la vitesse, des Core Web Vitals et du référencement.' },
 ];
 
 export const PROJECTS = [
-  { name: 'Trackify', text: 'Plateforme d’analytics pour suivre le comportement des utilisateurs en temps réel.', tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL'] },
-  { name: 'BookNest', text: 'Expérience e-commerce pour les amoureux des livres, avec recommandations personnalisées.', tags: ['React', 'Node.js', 'MongoDB', 'Stripe'] },
-  { name: 'FlowTask', text: 'Outil de gestion de projets pour équipes agiles : tableaux kanban et suivi du temps.', tags: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind CSS'] },
+  { name: 'Generateur_CV', text: 'Générateur de CV professionnel avec personnalisation et export PDF.', tags: ['javascript', 'TypeScript', 'CSS', 'HTML'] },
+  { name: 'Blue-monarch', text: 'Plateforme de vente de vetement en ligne.', tags: ['React', 'Node.js', 'MongoDB', 'Stripe'] },
+  { name: 'Vagabond-front-end', text: 'Une plateforme de e-commerce, un projet scolaire', tags: ['Node.js', 'Tailwind CSS', 'HTML'] },
 ];
 
 export const EXPERIENCES = [
