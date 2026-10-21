@@ -41,9 +41,9 @@ export const PROJECTS = [
 ];
 
 export const EXPERIENCES = [
-  { period: '2022 – Présent', title: 'Senior Frontend Engineer', company: 'LimeSoft Inc.', text: 'Architecture frontend et développement UI pour des produits SaaS utilisés par des milliers de clients.' },
-  { period: '2019 – 2022', title: 'Full Stack Developer', company: 'DevCraft Solutions', text: 'Applications web évolutives et APIs RESTful, en équipe pluridisciplinaire.' },
-  { period: '2017 – 2019', title: 'Junior Web Developer', company: 'WebCore Studio', text: 'Sites et applications web, avec un focus sur la performance et le responsive.' },
+  { period: '2026 – Présent', title: 'Stagiare developpeur backend', company: 'Quantum Tech.', text: 'Architecture backend solide pour des projets pro' },
+  { period: '2023 - 2023', title: 'BAC +3 Informatique Fondamentale', company: 'Universite Yaounde I', text: 'Etudiant en phase finale du cycle Licence' },
+  //{ period: '2017 – 2019', title: 'Junior Web Developer', company: 'WebCore Studio', text: 'Sites et applications web, avec un focus sur la performance et le responsive.' },
 ];
 
 export const TESTIMONIALS = [
